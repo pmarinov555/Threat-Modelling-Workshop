@@ -8,7 +8,7 @@
     participant User
 
     activate Attacker
-    Attacker->>SolariHealthApp: Identify Solari Health 360 app
+    Attacker->>SolarisHealthApp: Identify Solari Health 360 app
     SolariHealthApp->>Attacker: Application identified
     deactivate Attacker
 
