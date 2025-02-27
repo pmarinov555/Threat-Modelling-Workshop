@@ -28,7 +28,7 @@ style A fill:#F4D03F
 style B fill:#E74C3C
 style C fill:#EB984E
 style D fill:#DC7633
-style E fill:#BA4A00
-Style F fill:#922B21
+style E fill:#293132
+Style F fill:#FF7700
 Style G fill:#F1330A
 Style H fill:#3366ff
