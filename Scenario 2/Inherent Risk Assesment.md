@@ -1,0 +1,5 @@
+| Category                | Description                                             | Likelihood | Impact | Risk Rating | Scenario                                               |
+|-------------------------|---------------------------------------------------------|------------|--------|-------------|--------------------------------------------------------|
+| Model Integrity         | Poisoned training data affecting diagnoses              | High       | Critical | Critical    | False cancer negative predictions                      |
+| Data Provenance          | Lack of dataset lineage tracking                        | Medium     | High    | High        | Undetected adversarial data injection                  |
+| Compute Security         | Unattended ML training environments                     | High       | Medium  | Medium      | Model weight manipulation via compromised GPU cluster  |
