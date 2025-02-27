@@ -1,0 +1,5 @@
+| Category                | Description                                             | Likelihood | Impact | Risk Rating | Scenario                                               |
+|-------------------------|---------------------------------------------------------|------------|--------|-------------|--------------------------------------------------------|
+| Input Validation        | Unsanitized search fields                              | High       | Critical | Critical    | Full database compromise                               |
+| DB Permissions          | Overprivileged webapp account                          | Medium     | High    | High        | Lateral movement to other systems                     |
+| Exfiltration Detection  | Lack of encrypted SQL traffic monitoring               | High       | High    | High        | Undetected PHI theft                                   |
