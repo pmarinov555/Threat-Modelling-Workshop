@@ -1,5 +1,6 @@
 # Attacker Flow Diagram: Insider Attack Targeting Quant Algorithms
 
+```mermaid
 sequenceDiagram
     participant Insider
     participant QuantAlgorithmRepo
