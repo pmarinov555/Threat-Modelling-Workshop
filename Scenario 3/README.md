@@ -38,6 +38,7 @@ Exploit misconfigured data lake permissions to:
 - **Ransom Demand**: Threaten public release unless Bitcoin payment received
 - **System Corruption**: Drop critical tables via DROP DATABASE health360
 
+```mermaid
 flowchart LR
     A[Reconnaissance] -->|Find injection points| B[Weaponization]
     B -->|Craft UNION payloads| C[Delivery]
