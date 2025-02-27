@@ -1,5 +1,3 @@
-markdown
-Copy
 ```mermaid
 flowchart TD
     subgraph "Data Pipeline"

